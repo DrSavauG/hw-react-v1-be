@@ -1,0 +1,24 @@
+GET http://localhost:65534/roulette
+###
+
+GET http://localhost:65534/roulette/?page=1&limit=2
+###
+
+GET http://localhost:65534/roulette/?all=1
+###
+
+POST http://localhost:65534/roulette
+Content-Type: application/json
+
+{
+  "title": "21",
+  "url": "https://",
+  "genre": [
+    "1"
+  ],
+  "release": "2021-10-10",
+  "rating": "123",
+  "runtime": "runtime",
+  "overview": "overview"
+}
+
